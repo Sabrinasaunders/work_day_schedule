@@ -2,66 +2,29 @@
 
 ## Description
 
-The purpose of this project is to provide a simple calender application for the user to be able to save their hourly events for the current day. The application utilizes HTMl,JavaScript and CSS
+The purpose of this project is to provide a simple calender application for the user to be able to save their hourly events for the current day. The application runs HTML & CSS in the browser powered by jQuery.
 
-- What was your motivation?
-- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
-- What problem does it solve?
-- What did you learn?
 
-## Table of Contents (Optional)
-
-If your README is long, add a table of contents to make it easy for users to find what they need.
+## Table of Contents 
 
 - [Installation](#installation)
 - [Usage](#usage)
 - [Credits](#credits)
-- [License](#license)
+- [Diployment] (#diployment)
 
 ## Installation
-
-What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
+This project was provided with starter code by UC Berkeley Bootcamp. Additional time slots were added to the HTML code, proper linkage of JS & CSS. Added code to JS to be able to interact with the DOM. Added ability to loop through the time slots showing the past, present and future hour.
 
 ## Usage
+This application displays the hours during a work day (8am-5pm). At the top of the page the current date and time will show. The time block changes color; grey shows past hours, red shows the current hour and green shows the future hours. The user can input their calender events in the desired hour and save the content using the save button to the right of the block. The events will save via the users local storage, thus will remain even if the page is refreshed.
 
-Provide instructions and examples for use. Include screenshots as needed.
+## Screenshot of Project
+![Alt text](<assets/images/Screenshot 2024-03-16 at 2.01.11 PM.png>)
 
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
-
-    ```md
-    ![alt text](assets/images/screenshot.png)
-    ```
 
 ## Credits
 
-List your collaborators, if any, with links to their GitHub profiles.
+Starter code provided by https://github.com/coding-boot-camp/crispy-octo-meme
 
-If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
-
-If you followed tutorials, include links to those here as well.
-
-## License
-
-The last section of a high-quality README file is the license. This lets other developers know what they can and cannot do with your project. If you need help choosing a license, refer to [https://choosealicense.com/](https://choosealicense.com/).
-
----
-
-🏆 The previous sections are the bare minimum, and your project will ultimately determine the content of this document. You might also want to consider adding the following sections.
-
-## Badges
-
-![badmath](https://img.shields.io/github/languages/top/lernantino/badmath)
-
-Badges aren't necessary, per se, but they demonstrate street cred. Badges let other developers know that you know what you're doing. Check out the badges hosted by [shields.io](https://shields.io/). You may not understand what they all represent now, but you will in time.
-
-## Features
-
-If your project has a lot of features, list them here.
-
-## How to Contribute
-
-If you created an application or package and would like other developers to contribute it, you can include guidelines for how to do so. The [Contributor Covenant](https://www.contributor-covenant.org/) is an industry standard, but you can always write your own if you'd prefer.
-
-## Tests
-
-Go the extra mile and write tests for your application. Then provide examples on how to run them here.
+## Diployment
+https://sabrinasaunders.github.io/work_day_schedule/
