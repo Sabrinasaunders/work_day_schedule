@@ -10,7 +10,7 @@ The purpose of this project is to provide a simple calender application for the 
 - [Installation](#installation)
 - [Usage](#usage)
 - [Credits](#credits)
-- [Diployment] (#diployment)
+- [Deployment](#deployment)
 
 ## Installation
 This project was provided with starter code by UC Berkeley Bootcamp. Additional time slots were added to the HTML code, proper linkage of JS & CSS. Added code to JS to be able to interact with the DOM. Added ability to loop through the time slots showing the past, present and future hour.
@@ -26,5 +26,5 @@ This application displays the hours during a work day (8am-5pm). At the top of t
 
 Starter code provided by https://github.com/coding-boot-camp/crispy-octo-meme
 
-## Diployment
+## Deployment
 https://sabrinasaunders.github.io/work_day_schedule/
